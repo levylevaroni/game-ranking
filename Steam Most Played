@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lev's Game Play Ranking</title>
+    <style>
+        body{
+            font-family: "Garamond", "Times New Roman", serif;
+            background-color: #0b0b0d; /* deep black background */
+            color: #f2e9e4; /* pale ivory text */
+            margin: 40px;
+            text-align: center; 
+        }
+
+        h1{
+            color: #b30000; /* blood red */ 
+            text-shadow: 0 0 10px #660000;
+            margin-bottom: 25px;
+        }
+
+        table{
+            width: 85%;
+            margin: 0 auto;
+            border-collapse: collapse;
+            box-shadow: 0 0 20px rgba(179, 0, 0, 0.6);
+        }
+
+        caption{
+            font-size: 1.6em;
+            font-weight: bold;
+            margin-bottom: 15px;
+            color: #cc0000;
+            text-shadow: 0 0 10px #400000;
+        }
+
+        th, td{
+            border: 1px solid #660000;
+            padding: 12px;
+        }
+        th{
+            background-color: #1a0000;
+            color: #e6b3b3;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #150000;
+        }
+
+        tr:nth-child(odd) {
+            background-color: #1e0000;
+        }
+
+        tr:hover {
+            background-color: #400000;
+            transition: 0.3s ease;
+        }
+
+        /* Favorite game highlight */
+        .highlight {
+            background-color: #660000; /* deeper blood red*/
+            color: #fff5f5;
+            font-weight: bold;
+            text-shadow: 0 0 8px #ff0000;
+            box-shadow: inset 0 0 10px #ff3333, 0 0 10px #660000;
+        }
+
+        p {
+            margin-top: 20px;
+            font-style: italic;
+            color: #d9b3b3;
+        }
+
+        /* Faint glowing border on hover */
+        table:hover {
+            box-shadow: 0 0 30px rgba(255, 0, 0, 0.4);
+        }
+    </style>
+</head>
+<body>
+    <h1>🦇 Lev's Game Ranking Project 🩸</h1>
+
+    <table>
+        <caption>My Most Played Games Ranked By Play Time</caption>
+        <tr>
+            <th>Rank</th>
+            <th>Game Name</th>
+            <th>Description</th>
+            <th>Hours Played</th>
+        </tr>
+        <tr class="highlight">
+        <td>1</td>
+        <td>Baldur's Gate 3</td>
+        <td>RPG with choices, companions, and chaos.</td>
+        <td>520 hours</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Stardew Valley</td>
+            <td>Farming, friendships, and living in Pelican Town.</td>
+            <td>450.2 hours</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Vampire: The Masquerade - Justice (VR)</td>
+            <td>Step into the shadows of Venice as a vengeful vampire.</td>
+            <td>203 hours</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Demonologist</td>
+            <td>Team up or go solo to investigate paranormal hauntings.</td>
+            <td>102 hours</td>
+        </tr>
+        <tr>
+            <td colspan="2">Bonus Entry</td>
+            <td>Bookshop Simulator - A cozy sim about running a bookshop.</td>
+            <td>54.1 hours</td>
+        </tr>
+    </table>
+
+    <p>🕯️ Highlighted game = my current favorite!</p>
+</body>
+</html>
